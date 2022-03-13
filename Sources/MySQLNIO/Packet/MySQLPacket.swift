@@ -33,4 +33,4 @@ extension MySQLPacket: CustomStringConvertible {
     }
 }
 
-public protocol MySQLPacketCodable: MySQLPacketDecodable, MySQLPacketEncodable {}
+protocol MySQLPacketCodable: MySQLPacketDecodable, MySQLPacketEncodable {}
